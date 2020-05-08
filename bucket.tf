@@ -8,3 +8,6 @@ resource "aws_s3_bucket" "s3b" {
 
   tags = {}
 }
+
+variable "aws_region" {}
+variable "bucket_name" {}
